@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <link rel="StyleSheet" href="./css/estilo.css">
+        <meta charset="UTF-8">
+        <meta name="author" content="Andrés Justo Moya">
+        <meta name="description" content="Página de prueba para repasar los contenidos HTML">
+        <meta name="keywords" content="HTML, IAW">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            Repaso HTML5
+        </title>
+    </head>
+    <body>
+    <header>
+        <!–Repaso de HTML5–>
+        <img src="./imagenes/imagen.png" width="400">
+    </header>
+    <nav>
+        Menú de navegación
+            <ul>
+                <li><a href="#">Opción 1</a></li>
+                <li><a href="#">Opción 2</a></li>
+                <li><a href="#">Opción 3</a></li>
+                <li><a href="#">Opción 4</a></li>
+            </ul>
+            <!– Con "ul" creo una lista sin orden. Dentro de esta, cada opción con "li" tiene asignada un enlace que en este caso no es ninguno –>
+    </nav>
+    <!– "nav" establece un menú de navegación –>
+    <main>
+        <section>
+            Sección
+                <article>
+                    <h2>Título del primer artículo</h2>
+                    <h3>Subtítulo</h3>
+                    <p><time datetime="1870-11-02T00:01">Fecha</time></p>
+                    <p><mark id="marca">Lorem ipsum</mark> dolor sit, amet consectetur adipisicing elit. Enim veniam, <mark>optio perspiciatis eos nam distinctio unde itaque nesciunt praesentium molestias accusantium voluptatibus dicta consequuntur? Voluptates natus provident necessitatibus nihil labore?</mark></p>
+                    <!– Los br introducen un salto de línea –>
+                    <p>Meter:<br>
+                        <meter value="7" min="0" max="10">7 de 10</meter><br>
+                        Progress:<br>
+                        <progress value="20" min="0" max="100">20%</progress>
+                    </p>
+                </article>
+                <hr>
+                <!– "hr" crea una línea horizontal –>
+                <article>
+                    <h2>Listas</h2>
+                    <h4>Listas no ordenadas</h4>
+                        <ul>
+                            <li id="primero">Opción 1</li>
+                            <li id="segundo">Opción 2</li>
+                            <li id="tercero">Opción 3</li>
+                        </ul>
+                    <h4>Listas ordenadas</h4>
+                        <ol>
+                            <li id="cuarto">Opción 1</li>
+                            <li id="quinto">Opción 2</li>
+                            <li id="sexto">Opción 3</li>
+                        </ol>
+                </article>
+                <hr>
+                <!– Dentro del section van los article –>
+        </section>
+        <aside>
+            <h1>Título del aside</h1>
+            <p>Contenido del aside</p>
+        </aside>
+    </main>
+    <footer>
+        Pie de página
+    </footer>
+    </body>
+</html>
